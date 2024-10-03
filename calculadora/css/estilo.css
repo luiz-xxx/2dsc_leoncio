@@ -6,5 +6,29 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #ccc;
+    background-color: #d4d4d4;
+}
+.app {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);    
+}
+input {
+    padding: 8px;
+    margin: 8px;
+    outline: none;
+}
+#btn-calcular {
+    background-color: #ff9500;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#numero1 {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
 }
