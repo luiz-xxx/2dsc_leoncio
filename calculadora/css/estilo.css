@@ -2,7 +2,7 @@
     font-family: arial;
 }
 
-body {
+body {   
     width: 100%;
     display: flex;
     justify-content: center;
@@ -28,6 +28,11 @@ input {
     border-radius: 8px;
 }
 #numero1 {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+#numero2 {
     padding: 12px;
     border: none;
     border-radius: 8px;
