@@ -15,11 +15,22 @@ body {
     color: rgb(255, 255, 255);    
 }
 input {
-    padding: 8px;
-    margin: 8px;
+    padding: 5px;
+    margin: 10px;
     outline: none;
+    flex-direction: column;
 }
+
 #btn-calcular {
+    background-color: #ff9500;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#btn-limpar {
     background-color: #ff9500;
     color: #ffffff;
     padding: 12px;
